@@ -9,6 +9,9 @@
 <body>	
 	<script>
 		function secondHighest(arr) {
+			if (arr.length <= 1) {
+        return -Infinity;
+    }
 			let highest = -Infinity;
     let second = -Infinity;
 
